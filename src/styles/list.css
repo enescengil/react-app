@@ -1,0 +1,82 @@
+.list-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.input-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.searchBtn{
+    width: 275px;
+    height: 15px;
+    padding: 15px 20px;
+    background: #DADADA;
+    border-radius: 15px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    transition: border-color .3s ;
+}
+.searchBtn:focus{
+    transition: border-color .3s ;
+    border-color: black;
+}
+input:focus{
+    outline: none;
+}
+.fav-title{
+    font-weight: 900;
+    font-size: 32px;
+}
+.favBtn{
+    width: 200px;
+    border: none;
+    background: #005483;
+    border-radius: 15px;
+    font-weight: 900;
+    color: #41BBFF;
+    cursor: pointer;
+    transition: .2s linear;
+}
+.favBtn:hover{
+    border: 3px solid #41BBFF;
+    transition: .2s;
+}
+.list-wrapper{
+    margin-top: 35px;
+    min-height: 500px;
+}
+.values{
+    width: 100%;
+    text-align: center;
+}
+.name-wrapper{
+    font-size: 18px;
+    display: flex;
+}
+tr{
+    transition: .2s linear;
+}
+td{
+    padding-top: 15px;
+    font-weight: 600;
+}
+th{
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+.star{
+    transition: .1s linear;
+    cursor: pointer;
+}
+.star:hover{
+    width: 25px;
+}
+.symbol{
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.name-td{
+    text-align: start;
+}

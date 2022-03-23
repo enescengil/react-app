@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+.text-side{
+    width: 59%;
+    position: relative;
+    padding-top: 10%;
+}
+.title{
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 110px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+}
+.pic{
+    display: flex;
+    align-items: center;
+}
+.alien{
+    width: 200px;
+    padding-right: 200px;
+}
+.btc{
+    width: 650px;
+    position: absolute;
+    z-index: 0;
+    top: 11%;
+    background-color: rgba(0, 0, 0, 0);
+}
