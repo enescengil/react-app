@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-app/static/css/main.69cd8163.css",
+    "main.js": "/react-app/static/js/main.f00e87d6.js",
+    "static/media/btc.png": "/react-app/static/media/btc.4ef2e6da9cf8a8ad8545.png",
+    "static/media/alien.png": "/react-app/static/media/alien.89fc40cd3edd8df0883f.png",
+    "index.html": "/react-app/index.html",
+    "main.69cd8163.css.map": "/react-app/static/css/main.69cd8163.css.map",
+    "main.f00e87d6.js.map": "/react-app/static/js/main.f00e87d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69cd8163.css",
+    "static/js/main.f00e87d6.js"
+  ]
+}
